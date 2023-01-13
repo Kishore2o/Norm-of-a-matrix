@@ -19,6 +19,7 @@ norm-of-a-matrix="{:.2f}".format(a)
 print(norm-of-a-matrix)
 
 # 2-norm of matrix
+
 import numpy as np
 mat=np.array(eval(input()))
 a=np.linalg.norm(mat,2)
@@ -26,6 +27,7 @@ norm-of-a-matrix="{:.2f}".format(a)
 print(norm-of-a-matrix)
 
 # infinity-norm of matrix
+
 import numpy as np
 mat=np.array(eval(input()))
 a=np.linalg.norm(mat,np.inf)
