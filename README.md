@@ -16,6 +16,18 @@ a=np.linalg.norm(mat,1)
 norm-of-a-matrix="{:.2f}".format(a)
 print(norm-of-a-matrix)
 
+import numpy as np
+mat=np.array(eval(input()))
+a=np.linalg.norm(mat,2)
+norm-of-a-matrix="{:.2f}".format(a)
+print(norm-of-a-matrix)
+
+import numpy as np
+mat=np.array(eval(input()))
+a=np.linalg.norm(mat,np.inf)
+norm-of-a-matrix="{:.2f}".format(a)
+print(norm-of-a-matrix)
+
 ```
 ## Output:
 ![OUTPUT](./images/norm 1.png)
