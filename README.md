@@ -19,23 +19,16 @@ mat=np.array(eval(input()))
 a=np.linalg.norm(mat,1)
 norm-of-a-matrix="{:.2f}".format(a)
 print(norm-of-a-matrix)
-```
 
 
 # 2-Norm of a Matrix
-```
 import numpy as np
 mat=np.array(eval(input()))
 a=np.linalg.norm(mat,2)
 norm-of-a-matrix="{:.2f}".format(a)
 print(norm-of-a-matrix)
-```
 
-
-
-
-# Infinity Norm of a Matrix
-```
+# infinity-Norm of a Matrix
 import numpy as np
 mat=np.array(eval(input()))
 a=np.linalg.norm(mat,np.inf)
